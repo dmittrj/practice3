@@ -12,7 +12,7 @@ namespace Practice_1._2
             Int16 c = 0;
             Int32 d = 0;
             Int64 e = 0;
-            string s = "";
+            string s = " ";
             Exception ex = new Exception();
             object[] types = { a, b, c, d, e, s, ex };
             foreach (object o in types)
